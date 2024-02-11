@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title> Rgistratin form</title>
+ </head>
+ <body>
+    <h1 style=text-align:center> Registration form in html</h1>
+	 <form>
+	    <table>
+		   <tr>
+		      <td>
+			    Name:
+			  </td>
+			  <td>
+			     <input type="text"placeholder="Name"name="">
+			  </td>
+		   </tr>
+		   <tr>
+		      <td>
+			     Phone Number:
+			   </td>
+			   <td>
+			      <input type="phone"placeholder="9876******">
+				</td>
+		   </tr>
+		    <tr>
+		      <td>
+			     Email Id:
+			   </td>
+			   <td>
+			      <input type="email"placeholder="example@gmail.come">
+				</td>
+		   </tr>
+		    <tr>
+		      <td>
+			     Password:
+			   </td>
+			   <td>
+			      <input type="password"placeholder="Password">
+				</td>
+		   </tr>
+		    <tr>
+		      <td>
+			     Gender:
+			   </td>
+			   <td>
+			      <input type="radio"name="gender">Male
+				  <input type="radio"name="gender">Female
+				</td>
+		   </tr>
+		    <tr>
+		      <td>
+			     Date of barth
+			   </td>
+			   <td>
+			      <input type="date">
+				</td>
+		   </tr>
+           <tr>
+		     <td>
+			    Hobbies:
+			 </td>
+			 <td>
+			     <input type="checkbox"singing>Singing
+				 <input type="checkbox"Dancing>Dancing
+				 <input type="checkbox"Playing>Playing
+			 </td>
+		   </tr>
+		   <tr>
+		     <td>
+			    Education Qualification:
+			 </td>
+			 <td>
+			    <select>
+				    <option>Select option</option>
+				   <option>10+2</option>
+				   <option>Graduation</option>
+				   <option>Postgradution</option>
+				</select>
+			 </td>
+		   </tr>
+		   <tr>
+		     <td>
+			    Address:
+			 </td>
+			 <td>
+			    <textarea row="5" col="15" placeholder="Address"></textarea>
+			 </td>
+		   </tr>
+
+
+		</table>
+	 </form>
+	 <div class="position-absolute width-full color-bg-default" style="bottom: -4rem;">
+  <div class="container-xl p-responsive">
+    <div class="d-flex flex-justify-center flex-lg-justify-end color-bg-default">
+      <div class="col-8 col-sm-7 col-md-6 col-lg-5 position-relative z-2 right-lg-n12 events-none">
+        <picture>
+          <source srcset="astro-mona.webp" type="image/webp">
+          <img src="astro-mona.svg" width="960" height="967" class="home-astro-mona width-full position-absolute bottom-0 height-auto" alt="Mona looking at GitHub activity across the globe">
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+ </body>
+</html>
